@@ -1,0 +1,8 @@
+[package]
+name = "telegram-client"
+version = "0.1.0"
+authors = ["Vesa Kaihlavirta <vegai@iki.fi>"]
+
+[dependencies]
+hyper = "0.10"
+hyper-native-tls = "0.2"

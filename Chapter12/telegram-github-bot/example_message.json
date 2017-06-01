@@ -1,0 +1,43 @@
+{
+   "result" : [
+      {
+         "update_id" : 736617836,
+         "message" : {
+            "text" : "de",
+            "from" : {
+               "first_name" : "Vesa",
+               "username" : "vegai",
+               "id" : 64898733
+            },
+            "date" : 1483863182,
+            "message_id" : 7,
+            "chat" : {
+               "type" : "private",
+               "first_name" : "Vesa",
+               "username" : "vegai",
+               "id" : 64898733
+            }
+         }
+      },
+      {
+         "message" : {
+            "date" : 1483863186,
+            "text" : "rc",
+            "from" : {
+               "first_name" : "Vesa",
+               "id" : 64898733,
+               "username" : "vegai"
+            },
+            "chat" : {
+               "username" : "vegai",
+               "id" : 64898733,
+               "first_name" : "Vesa",
+               "type" : "private"
+            },
+            "message_id" : 8
+         },
+         "update_id" : 736617837
+      }
+   ],
+   "ok" : true
+}

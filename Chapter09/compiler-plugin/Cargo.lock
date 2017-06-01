@@ -1,0 +1,4 @@
+[root]
+name = "compiler-plugin"
+version = "0.1.0"
+

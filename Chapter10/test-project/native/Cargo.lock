@@ -1,0 +1,47 @@
+[root]
+name = "test-project"
+version = "0.1.0"
+dependencies = [
+ "neon 0.1.15 (registry+https://github.com/rust-lang/crates.io-index)",
+ "neon-build 0.1.15 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "cslice"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "gcc"
+version = "0.3.45"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "neon"
+version = "0.1.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "cslice 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "neon-runtime 0.1.15 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "neon-build"
+version = "0.1.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "neon-runtime"
+version = "0.1.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "cslice 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gcc 0.3.45 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum cslice 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "697c714f50560202b1f4e2e09cd50a421881c83e9025db75d15f276616f04f40"
+"checksum gcc 0.3.45 (registry+https://github.com/rust-lang/crates.io-index)" = "40899336fb50db0c78710f53e87afc54d8c7266fb76262fecc78ca1a7f09deae"
+"checksum neon 0.1.15 (registry+https://github.com/rust-lang/crates.io-index)" = "7c4c287a5255728d0728e1f526b5810530ab46e7fafa11045ad4962212461f6a"
+"checksum neon-build 0.1.15 (registry+https://github.com/rust-lang/crates.io-index)" = "0ac4e06ea82697ddaebbfd1aa35bea61fc1a52e6450b679cd2d8834d929d0393"
+"checksum neon-runtime 0.1.15 (registry+https://github.com/rust-lang/crates.io-index)" = "c13ed11beb6296d54ec67bd17f220e89503e18d0eb7f0b9a5da656697a6591be"

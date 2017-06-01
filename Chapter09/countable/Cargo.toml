@@ -1,0 +1,13 @@
+[package]
+name = "countable"
+version = "0.1.0"
+authors = ["Vesa Kaihlavirta <vegai@iki.fi>"]
+
+[dependencies]
+syn = "0.11"
+quote = "0.3"
+
+[lib]
+name="count_fields_plugin"
+proc-macro = true
+

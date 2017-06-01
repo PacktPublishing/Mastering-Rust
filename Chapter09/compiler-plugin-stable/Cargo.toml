@@ -1,0 +1,11 @@
+[package]
+name = "compiler_plugin"
+version = "0.1.0"
+authors = ["Vesa Kaihlavirta <vegai@iki.fi>"]
+build = "build.rs"
+
+[build-dependencies]
+syntex = "*"
+
+[build-dependencies.hello_plugin]
+path = "hello_plugin"

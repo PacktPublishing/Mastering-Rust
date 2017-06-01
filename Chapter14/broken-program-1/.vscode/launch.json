@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Debug",
+            "type": "gdb",
+            "gdbpath": "rust-gdb",
+            "request": "launch",
+            "target": "./target/debug/broken-program-1",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}

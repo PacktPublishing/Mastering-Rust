@@ -1,0 +1,12 @@
+[package]
+name = "diesel-test"
+version = "0.1.0"
+authors = ["Vesa Kaihlavirta <vegai@iki.fi>"]
+
+[dependencies]
+diesel = { version = "0.10", features = ["postgres", "uuid", "serde_json"] }
+diesel_codegen = { version = "0.10", features = ["postgres"] }
+dotenv = "0.8"
+uuid = { version="0.4", features = ["serde", "v4"] }
+serde_json = "0.9"
+

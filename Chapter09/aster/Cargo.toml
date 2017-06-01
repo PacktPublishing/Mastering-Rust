@@ -1,0 +1,13 @@
+[package]
+name = "aster"
+version = "0.1.0"
+authors = ["vegai"]
+
+[features]
+default = ["aster/with-syntex", "syntex_syntax"]
+nightly = []
+
+[dependencies]
+aster = { version = "*", default_features = false }
+syntex_syntax = { version = "*", optional = true }
+

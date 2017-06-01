@@ -1,0 +1,7 @@
+[package]
+name = "chomp-test"
+version = "0.1.0"
+authors = ["Vesa Kaihlavirta <vegai@iki.fi>"]
+
+[dependencies]
+chomp = "0.3"

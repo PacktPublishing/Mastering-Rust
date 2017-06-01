@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {{#if flash}}
+            {{flash}}
+        {{/if}}
+        <h1>Characters in game</h1>
+        <ul>
+            {{#each characters}}
+                <li>
+                    <p>
+                    <form action="/attack/{{@key}}" method="POST">
+                    {{name}} str: {{strength}} dex: {{dexterity}} hp: {{hitpoints}}
+                        <button>⚔</button>
+                    </form>
+                    </p>
+                </li>
+            {{/each}}
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+[package]
+name = "linter"
+version = "0.1.0"
+authors = ["vegai"]
+
+[lib]
+name="lint_fn"
+plugin=true
+
+[dependencies]
+

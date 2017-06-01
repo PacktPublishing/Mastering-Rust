@@ -1,0 +1,11 @@
+[package]
+name = "ruru_test"
+version = "0.1.0"
+authors = ["Vesa Kaihlavirta <vegai@iki.fi>"]
+
+[dependencies]
+ruru="*"
+
+[lib]
+crate-type=["dylib"]
+

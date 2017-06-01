@@ -1,0 +1,7 @@
+[package]
+name = "chomp-sexpr"
+version = "0.1.0"
+authors = ["vegai"]
+
+[dependencies]
+chomp = "0.3"

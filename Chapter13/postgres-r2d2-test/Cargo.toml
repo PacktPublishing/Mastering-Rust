@@ -1,0 +1,17 @@
+[package]
+name = "postgres-test"
+version = "0.1.0"
+authors = ["Vesa Kaihlavirta <vegai@iki.fi>"]
+
+[dependencies.postgres]
+git = "https://github.com/sfackler/rust-postgres"
+features = ["with-bit-vec", "with-chrono", "with-uuid", "with-serde_json", "with-uuid"]
+
+[dependencies]
+uuid={ version="0.4", features = ["serde", "v4"] }
+serde="0.9"
+serde_json="0.9"
+serde_derive="0.9"
+chrono={ version="0.3", features = ["serde"] }
+r2d2="0.7"
+r2d2_postgres="0.11"

@@ -1,0 +1,6 @@
+[package]
+name = "library-example"
+version = "0.1.0"
+authors = ["vegai"]
+
+[dependencies]

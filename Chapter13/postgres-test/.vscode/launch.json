@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "type": "gdb",
+        "request": "launch",
+        "name": "Launch Program",
+        "target": "./target/debug/broken_program_1",
+        "cwd": "${workspaceRoot}"
+    },
+        {
+            "name": "Debug",
+            "type": "gdb",
+            "request": "launch",
+            "target": "./target/debug/broken_program_1",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
