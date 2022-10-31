@@ -35,7 +35,3 @@ To really dive into the content of this book, you should write out the example c
 
 * [Learning Rust](https://www.packtpub.com/application-development/learning-rust?utm_source=github&utm_medium=repository&utm_campaign=9781785884306)
 
-### Download a free PDF
-
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781785885303">https://packt.link/free-ebook/9781785885303 </a> </p>
